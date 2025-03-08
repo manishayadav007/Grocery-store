@@ -5,6 +5,9 @@ import Facebook from '../../assets/icons/social_icons/Facebook.png';
 import Instagram from '../../assets/icons/social_icons/Instagram.png';
 import Twitter from '../../assets/icons/social_icons/Twitter.png';
 import Linkedin from '../../assets/icons/social_icons/Linkedin.png';
+import Portfolio from '../../assets/icons/social_icons/portfolio.png';
+import Github from '../../assets/icons/social_icons/Github.png';
+
 import { LocationOn, Mail, Phone } from "@mui/icons-material";
 
 // This Class for Sub_Component_Link
@@ -36,10 +39,24 @@ const Footer = () => {
                         </p>
 
                         {/* Social Media Links */}
+
                         <div className='flex md:space-x-3.5 space-x-3'>
-                            {/* Fb */}
-                            <a href="#">
-                                <img className='sm:max-h-none max-h-5' src={Facebook} alt="facebook" />
+
+                            
+                             {/* Linkedin */}
+                             <a href="https://www.linkedin.com/in/keshavjha005">
+                                <img className='sm:max-h-none max-h-5' src={Linkedin} alt="Linkedin" />
+                            </a>
+
+                           
+                             {/* Github */}
+                             <a href="https://github.com/keshavjha005">
+                                <img className='sm:max-h-none max-h-5' src={Github} alt="Github" />
+                            </a>
+
+  {/* Portfolio*/}
+  <a href="https://portfolio-keshav-eight.vercel.app/">
+                                <img className='sm:max-h-none max-h-5' src={Portfolio} alt="Portfolio" />
                             </a>
 
                             {/* Instagram */}
@@ -52,10 +69,7 @@ const Footer = () => {
                                 <img className='sm:max-h-none max-h-5' src={Twitter} alt="Twitter" />
                             </a>
 
-                            {/* Linkedin */}
-                            <a href="#">
-                                <img className='sm:max-h-none max-h-5' src={Linkedin} alt="Linkedin" />
-                            </a>
+                           
                         </div>
                     </div>
 
@@ -77,19 +91,18 @@ const Footer = () => {
                         <h3 className='xl:text-xl sm:text-lg text-base font-semibold tracking-wider'>Contact Us</h3>
                         <div className='sm:space-y-2 space-y-1.5 xl:text-base text-sm'>
                             {/* Phone (fake) */}
-                            <a className='block text-sm sm:text-base hover:underline' href="tel:+1 (406) 555-0120">
-                                <Phone fontSize='inherit' /> +1 (406) 555-0120
+                            <a className='block text-sm sm:text-base hover:underline' href="tel:+91 (843) 448-3189">
+                                <Phone fontSize='inherit' /> +91 (843) 448-3189
                             </a>
 
                             {/* Email */}
-                            <a className='block text-sm sm:text-base hover:underline' href="mailto:hasan.dev1@gmail.com">
-                                <Mail fontSize='inherit' /> developer@gmail.com
+                            <a className='block text-sm sm:text-base hover:underline' href="mailto:jhakeshavkumar62093@gmail.com">
+                                <Mail fontSize='inherit' /> jhakeshvkumar62093@gmail.com
                             </a>
 
                             {/* Address (fake)*/}
                             <address>
-                                <LocationOn fontSize='inherit' />123 Main Street, New York
-                            </address>
+                                <LocationOn fontSize='inherit' />847225, Madhubani, Bihar, India                        </address>
                         </div>
                     </div>
                 </div>
@@ -99,7 +112,7 @@ const Footer = () => {
             <div>
                 <hr className='border-gray-600' />
                 <div className='text-center flex items-center h-12'>
-                    <span className='text-xs  w-full block text-gray-300 tracking-wider'>© 2025 Developed By <a className='hover:underline' href="" target="_blank" rel="noopener noreferrer"> Mayank </a></span>
+                    <span className='text-xs  w-full block text-gray-300 tracking-wider'>© 2025 Developed By <a className='hover:underline' href="https://www.linkedin.com/in/keshavjha005/" target="_blank" rel="noopener noreferrer">keshav jha  </a></span>
                 </div>
             </div>
         </footer>

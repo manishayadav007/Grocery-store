@@ -6,7 +6,7 @@ import Instagram from '../../assets/icons/social_icons/Instagram.png';
 import Twitter from '../../assets/icons/social_icons/Twitter.png';
 import Linkedin from '../../assets/icons/social_icons/Linkedin.png';
 import Portfolio from '../../assets/icons/social_icons/portfolio.png';
-import Github from '../../assets/icons/social_icons/Github.png';
+import Github from '../../assets/icons/social_icons/github.png';
 
 import { LocationOn, Mail, Phone } from "@mui/icons-material";
 

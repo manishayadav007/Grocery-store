@@ -44,18 +44,18 @@ const Footer = () => {
 
                             
                              {/* Linkedin */}
-                             <a href="https://www.linkedin.com/in/keshavjha005">
+                             <a href="https://www.linkedin.com/in/manishajha005">
                                 <img className='sm:max-h-none max-h-5' src={Linkedin} alt="Linkedin" />
                             </a>
 
                            
                              {/* Github */}
-                             <a href="https://github.com/keshavjha005">
+                             <a href="https://github.com/manishajha005">
                                 <img className='sm:max-h-none max-h-5' src={Github} alt="Github" />
                             </a>
 
   {/* Portfolio*/}
-  <a href="https://portfolio-keshav-eight.vercel.app/">
+  <a href="https://portfolio-manisha-eight.vercel.app/">
                                 <img className='sm:max-h-none max-h-5' src={Portfolio} alt="Portfolio" />
                             </a>
 
@@ -96,7 +96,7 @@ const Footer = () => {
                             </a>
 
                             {/* Email */}
-                            <a className='block text-sm sm:text-base hover:underline' href="mailto:jhakeshavkumar62093@gmail.com">
+                            <a className='block text-sm sm:text-base hover:underline' href="mailto:jhamanishakumar62093@gmail.com">
                                 <Mail fontSize='inherit' /> jhakeshvkumar62093@gmail.com
                             </a>
 
@@ -112,7 +112,7 @@ const Footer = () => {
             <div>
                 <hr className='border-gray-600' />
                 <div className='text-center flex items-center h-12'>
-                    <span className='text-xs  w-full block text-gray-300 tracking-wider'>© 2025 Developed By <a className='hover:underline' href="https://www.linkedin.com/in/keshavjha005/" target="_blank" rel="noopener noreferrer">keshav jha  </a></span>
+                    <span className='text-xs  w-full block text-gray-300 tracking-wider'>© 2025 Developed By <a className='hover:underline' href="https://www.linkedin.com/in/manishajha005/" target="_blank" rel="noopener noreferrer">manisha jha  </a></span>
                 </div>
             </div>
         </footer>

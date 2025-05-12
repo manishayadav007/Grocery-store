@@ -40,4 +40,4 @@ Special thanks to the UI designer, [DesignAxen](https://www.behance.net/DesignAx
 
 
 
-##### ©2023 Developed by Ahmod manisha jha
+##### ©2023 Developed by Ahmod manisha kumari
